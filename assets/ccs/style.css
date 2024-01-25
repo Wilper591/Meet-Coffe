@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: sticky;
+}
+header {
+  height: 30rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15rem;
+  margin: 3rem;
+}
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  padding-right: 3rem;
+  width: 50rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+  align-items: center;
+  gap: 3rem;
+}
+.oscuro {
+  background-color: black;
+}
+.icono svg {
+  width: 2rem;
+  fill: #ffffff;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: end;
+  justify-content: center;
+  background-image: url(/assets/img/bg-hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0rem;
+  margin: 0;
+}
+.subtitulo {
+  font-weight: 300;
+  padding-right: 3rem;
+}
+#ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10rem;
+}
+#ubicacion img {
+  width: 30rem;
+}
+#ubicacion h2 {
+  font-size: 3rem;
+}
+#ubicacion p {
+  font-size: 2rem;
+  width: 50rem;
+}
+.sweet-brown {
+  background-color: #a4452c;
+  color: #ffffff;
+}
+.centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+}
+.charla-texto {
+  padding-left: 2rem;
+}
+.charla-texto h2,
+h3 {
+  font-size: 3rem;
+  margin: 0;
+}
+.charla-texto h4 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0 0;
+}
+.charla-texto h5 {
+  font-size: 1rem;
+  margin: 0;
+}
+.charla-texto p {
+  font-size: 1.2rem;
+  width: 35rem;
+  margin: 1rem 0 0 0;
+}
+.centrado img {
+  border-radius: 1.5%;
+}
+#eventos {
+  text-align: center;
+}
+#eventos h2 {
+  font-size: 3rem;
+  margin: 10rem 0rem 4rem 0rem;
+}
+.eventos-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+.evento img {
+  margin: 2rem;
+}
+.evento h3 {
+  font-size: 2rem;
+}
+footer {
+  padding: 3rem 3rem 0rem 3rem;
+  display: block;
+}
+footer a {
+  padding: 2rem;
+}
+footer p {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+}
+.iconos-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*Evento01*/
+.simposio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+.simposio-section p {
+  width: 45rem;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.simposio-section img {
+  width: 45rem;
+}
+.simposio-section h2 {
+  align-items: left;
+  font-size: 2rem;
+  margin: 0;
+  padding: 2rem 2rem 4rem 0rem;
+}
+.texto-evento h2 {
+  padding-bottom: 1rem;
+}

@@ -52,7 +52,7 @@ ul {
   text-align: right;
   align-items: end;
   justify-content: center;
-  background-image: url("/../img/bg-hero.png");
+  background-image: url('../img/bg-hero.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0rem;
